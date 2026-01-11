@@ -1,1 +1,4 @@
-}
+mine = int(input())
+for _ in range(mine):
+    a, b, x = map(int, input().split())
+    print((b - a) // x)
