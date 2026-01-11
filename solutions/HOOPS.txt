@@ -1,0 +1,4 @@
+mine = int(input())
+for _ in range(mine):
+    n = int(input())
+    print((n + 1) // 2)
